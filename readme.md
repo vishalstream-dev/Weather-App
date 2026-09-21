@@ -57,5 +57,5 @@ Weather App/
 └── README.md
 ## Screenshots
 
-![Weather App Screenshot(screenshot\weather-App-Screenshot.png)]
-![Weather App Screenshot(screenshot\weather-App-Screenshot-2.png)]
+![Weather App Screenshot](screenshot\weather-App-Screenshot.png)
+![Weather App Screenshot](screenshot\weather-App-Screenshot-2.png)
