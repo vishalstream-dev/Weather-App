@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="assets/weather.svg" type="image/x-icon">
+    <title>Weather app</title>
+</head>
+
+<body>
+    <main>
+        <div class="heading">
+            <img src="assets/weather.svg" alt="logo">
+            <h1>Weather App</h1>
+        </div>
+        <div class="input-container">
+            <input type="text" id="city-input" placeholder="Enter city name">
+            <button id="get-weather-btn">Get Weather</button>
+        </div>
+        <div class="weather-information">
+            <h2>Weather Information</h2>
+            <div class="weather-info">
+
+                <img id="weather-info-img" src="" alt="weather">
+                <p id="weatherDescription"></p>
+                <div class="location-container">
+                    <img id="location-icon" src="assets/location-dot-solid-full.svg" alt="location">
+                    <p id="location"></p>
+                </div>
+            </div>
+            <div class="weather-container-bottom">
+                <div class="temp-container b-container">
+                    <img src="assets/temperature.svg" alt="temperature">
+                    <div class="temp-info">
+                        <p id="temp"></p>
+                        <span>Temperature</span>
+                    </div>
+                </div>
+                <div class="humidity-container b-container">
+                    <img src="assets/humidity.svg" alt="humidity">
+                    <div class="humudity-info">
+                        <p id="humidity"></p>
+                        <span>Humidity</span>
+                    </div>
+                </div>
+                <div class="wind-container b-container">
+                    <img src="assets/wind.svg" alt="wind-speed">
+                    <div class="wind-speed-info">
+                        <p id="windSpeed"></p>
+                        <span>Wind Speed</span>
+                    </div>
+                </div>
+
+            </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>
