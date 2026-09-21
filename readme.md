@@ -55,7 +55,7 @@ Weather App/
 ├── style.css
 ├── script.js
 └── README.md
-
+```
 ## Screenshots
 
 ![Weather App Screenshot](screenshot/weather-App-Screenshot.png)
